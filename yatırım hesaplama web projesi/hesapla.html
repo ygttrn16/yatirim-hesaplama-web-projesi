@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yatırım hesapla</title>
+    <link rel="stylesheet" href="stylehesapla.css">
+    <link rel="icon" href="para.png" type="image/png">
+
+</head>
+<body>
+
+
+      <!-- Kripto Para Şeridi (Üst) -->
+      <div class="crypto-banner">
+        <marquee id="crypto-data">Kripto verisi yükleniyor...</marquee>
+      </div>
+
+    <div style="display: flex;">
+        <ul>
+            <li><a href="main.html">Anasayfa</a></li>
+            <li><a href="hesapla.html">Hesapla</a></li>
+            <li><a href="yatırım.html">Yatırım nedir?</a></li>
+  
+        </ul>
+      </div>
+ 
+  <!-- Toplama İşlemi -->
+  <div class="calculator-container">
+    <input type="number" id="anapara" placeholder="Anaparayı giriniz.">
+    <input type="number" id="Yıllkpara" placeholder="yıllık yatırım tutarını giriniz.">
+    <input type="number" id="vade" placeholder="kaç yıl yatırım yapacaksınız?">    
+    <input type="number" id="artıs" placeholder="yıllık artış miktarı(yüzde) nedir?">
+    <input type="number" id="enflasyon" placeholder="Yıllık enflasyon oranını(yüzde) giriniz.">
+    <input type="number" id="yasammaliyet" placeholder="şuanki Aylık yaşam maliyetinizi giriniz.">
+    <button onclick="hesapla()">Hesapla</button>
+    <div id="sonuc"></div>
+    <div id="sonuc1"></div>
+
+</div>
+
+
+       <div class="stocks-banner">
+        <marquee id="stocks-data">Hisse verisi yükleniyor...</marquee>
+       </div>
+
+       <script src="hesapla.js"></script>
+</body>
+</html>

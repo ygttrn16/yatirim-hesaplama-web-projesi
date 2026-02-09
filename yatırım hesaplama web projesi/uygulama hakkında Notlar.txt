@@ -1,0 +1,5 @@
+apilerden bazen bilgiler gelmeyebiliyor.
+coingeckodan kripto verileri geliyor ama polygondan abd hisselerinin verileri gelmiyor bazen ilk 3 tanesi geliyor diğerleri gelmiyor
+bubun sebebi dakikada alacağımız request sayısının sınırlı olması
+ilgili hata:"MCD için veri bulunamadı: {status: 'ERROR', request_id: '3db9f2236242fea8cdead1d2a1d35d2c', error: "You've exceeded the maximum requests per minu…ption to continue. https://polygon.io/pricing"}"
+Hesaplamadan sonra bulunan tutar alım gücü olarak gösterir örneğin 10 yıl sonra bugünün 10000 lirasına sahip olursunuz.
